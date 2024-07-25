@@ -227,13 +227,13 @@
                 <form action="https://api.web3forms.com/submit" method="POST">
                     <input type="hidden" name="access_key" value="f3d7bc26-e589-430d-9016-84bd338b3dd1">
                     <div class="inputBox">
-                        <input type="text" name="Contact first name" placeholder="first name">
-                        <input type="text" name="Contact last name" placeholder="last name">
+                        <input type="text" name="Contact first name" placeholder="first name" required>
+                        <input type="text" name="Contact last name" placeholder="last name" required>
                     </div>
-                    <input type="mobile" name="Contact mobile number" placeholder="mobile number">
+                    <input type="mobile" name="Contact mobile number" placeholder="mobile number" required>
 
-                    <input type="email" name="Contact email" placeholder="email">
-                    <textarea name="message" id="" cols="30" rows="10" placeholder="message"></textarea>
+                    <input type="email" name="Contact email" placeholder="email" required>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="message" required></textarea>
                     <input type="submit" value="send">
                 </form>
             </div>
